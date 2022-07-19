@@ -4,7 +4,8 @@
 .header_area {
     height: 500px;
     background-color: #161616;
-    display: flex;  
+    display: flex;
+    margin-bottom: 50px;
 }
 
 .header_details {
@@ -12,7 +13,8 @@
     width: 50%;
     margin-left: 100px;
 }
-.header_details p{
+
+.header_details p {
     margin-bottom: 30px;
 }
 
@@ -29,11 +31,98 @@
 
 }
 
-.header_image{
+.header_image {
     width: 50%;
-    
+
 }
-.header_image img{
+
+.header_image img {
     width: 76%;
 
+}
+
+/* ===========================
+        aside area css
+============================*/
+.blogs_area {
+    display: flex;
+
+}
+
+.aside {
+    background-color: #161616;
+    width: 312px;
+    height: 312px;
+    border-radius: 10px;
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.group_button {
+    width: 252px;
+    height: 64px;
+    background-color: white;
+    display: column;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.group_button a {
+    text-decoration: none;
+}
+
+#blog_button {
+    background-color: #DD0000;
+}
+
+/* ===========================
+        blogs area css
+============================*/
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+}
+
+.blog {
+    border: 1px solid rgba(128, 128, 128, 0.445);
+    border-radius: 15px;
+
+
+}
+
+.blog img {
+    width: 100%;
+}
+.blogs_info{
+    padding: 30px;
+}
+
+.info {
+    display: flex;
+
+
+}
+
+.blog_clock {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.blog_clock p{
+    margin-left: 10px;
+}
+
+.blog_comment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog_comment p{
+    margin-left: 10px;
 }
