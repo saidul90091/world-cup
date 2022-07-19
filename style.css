@@ -1,4 +1,10 @@
-/* ===========================
+ /* ===========================
+        common css
+============================*/
+ body{
+    font-family: 'Roboto', sans-serif;
+ }
+ /* ===========================
         header area css
 ============================*/
 .header_area {
@@ -61,20 +67,19 @@
 }
 
 .group_button {
-    width: 252px;
-    height: 64px;
+   padding: 10px 30px;
+   display: block;
     background-color: white;
     display: column;
     margin: 20px;
     border-radius: 10px;
     text-align: center;
     cursor: pointer;
-
-}
-
-.group_button a {
     text-decoration: none;
+
 }
+
+
 
 #blog_button {
     background-color: #DD0000;
@@ -92,6 +97,7 @@
 .blog {
     border: 1px solid rgba(128, 128, 128, 0.445);
     border-radius: 15px;
+    margin: 10px;
 
 
 }
@@ -125,4 +131,52 @@
 }
 .blog_comment p{
     margin-left: 10px;
+}
+
+/* ===========================
+        footer css
+============================*/
+footer{
+    background-color: black;
+    color: white;
+    height: 244px;
+    text-align: center;
+    padding-top: 50px;
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 1080px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer_link{
+
+}
+.footer_link a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px;
+    
+}
+
+/* ===========================
+        match area css
+============================*/
+.match_group{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin-bottom: 50px;
+
+    
+}
+.match{
+    width: 312px;
+    height: 224px;
+    border: 1px solid gray;
+    padding-top: 40px;
+    margin: 20px;
+    
 }
