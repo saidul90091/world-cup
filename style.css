@@ -1,0 +1,39 @@
+/* ===========================
+        header area css
+============================*/
+.header_area {
+    height: 500px;
+    background-color: #161616;
+    display: flex;  
+}
+
+.header_details {
+    color: white;
+    width: 50%;
+    margin-left: 100px;
+}
+.header_details p{
+    margin-bottom: 30px;
+}
+
+#header_title {
+    font-size: 70px;
+}
+
+.live_button {
+    background-color: #DD0000;
+    color: white;
+    padding: 16px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.header_image{
+    width: 50%;
+    
+}
+.header_image img{
+    width: 76%;
+
+}
