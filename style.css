@@ -47,6 +47,7 @@
 
 }
 
+
 /* ===========================
         aside area css
 ============================*/
@@ -152,6 +153,11 @@ hr{
     font-size: 16px;
     
 }
+.social_icon{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
 
 /* ===========================
         match area css
@@ -226,6 +232,7 @@ hr{
         color: white;
         text-align: center;
         padding-top: 20px;
+        padding-bottom: 20px;
     }
     hr{
         border: 1px solid rgba(255, 255, 255, 0.1);
